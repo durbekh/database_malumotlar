@@ -16,7 +16,7 @@
 """
 import sqlite3 as sq
 
-with sq.connect("maktab") as con:
+with sq.connect("maktab.db") as con:
     cur = con.cursor()
     # ========================================================
     # 1-BO'LIM , JADVALLARNI YARATISH
